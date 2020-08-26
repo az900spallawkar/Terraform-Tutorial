@@ -10,7 +10,7 @@ A Terraform module for creating AWS EC2 instance.
 module "ec2_instance" {
   source     = "git::https://github.com/az900spallawkar/Terraform-Tutorial.git//aws-instance-first-script"
 
-  region    = "eu-west-2"
+  region    = "us-west-2"
 }
 ```
 
@@ -18,4 +18,4 @@ module "ec2_instance" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| region | AWS region | string | eu-west-2 | yes |
+| region | AWS region | string | us-east-1 | yes |
