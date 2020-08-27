@@ -7,7 +7,7 @@ variable "ami_id" {
 
   default = {
     us-east-1    = "ami-035b3c7efe6d061d5"
-    eu-west-2    = "ami-132b3c7efe6sdfdsfd"
+    eu-west-2    = "ami-0a13d44dccf1f5cf6"
     eu-central-1 = "ami-9787h5h6nsn"
   }
 }
